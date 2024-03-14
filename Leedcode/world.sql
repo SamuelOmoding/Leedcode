@@ -8,4 +8,4 @@
 
 -- Return the result table in any order.
 
-select name, population, area from world where area >= 300000 and population >= 25000000;
+select name, population, area from world where area >= 3000000 OR population >= 25000000;
